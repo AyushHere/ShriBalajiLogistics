@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-{{CounterTheme}} bg-{{CounterTheme}}">
+    <img src="./../../../assets/images/tools-box-{{theme}}.png" class="mr-2" alt="Home">
+    <a class="navbar-brand" href="#">Carpenter.Inc</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto align-items-center">
+        <li class="nav-item active ">
+            <img src="./../../../assets/images/home-{{theme}}.png" class="h-75" alt="Home">
+          </li>
+          <li class="nav-item ">
+            <img src="./../../../assets/images/market-{{theme}}.png" class="h-75" alt="Market Place">
+          </li>
+         
+          <li class="nav-item ">
+            <img src="./../../../assets/images/subordinate-{{theme}}.png" class="h-75" alt="Providers">
+          </li>
+        </ul>
+      <form class="form-inline my-2 my-lg-0 d-flex" *ngIf="false">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <!-- <button class="btn btn-warning mr-2"  (click)="switchTheme(CounterTheme)">Login/Register</button> -->
+      <button class="btn btn-warning mr-2"  >Login/Register</button>
+      <!-- <img src="./../../../assets/images/account-{{theme}}.png" class=" login-image" alt="Login/Register"> -->
+    </div>
+  </nav>
+  

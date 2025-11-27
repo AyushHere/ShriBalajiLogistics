@@ -1,0 +1,17 @@
+.nav-link {
+    display: flex;
+    align-items: end;
+    .market-img{
+        margin-right: 8px;
+    }
+   
+}
+.navbar-brand {
+    display: flex;
+    padding: 0px 15px;
+    align-items: center;
+    img{
+        margin-right: 8px;
+        width: 72px;
+    }
+}
